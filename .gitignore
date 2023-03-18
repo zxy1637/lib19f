@@ -1,0 +1,10 @@
+node_modules
+.DS_Store
+dist
+tmp
+mongo-url.txt
+session-secret.txt
+.idea
+web/.next/
+.rest
+SESSION_SECRET.txt

@@ -1,0 +1,11 @@
+.nuxt
+.vscode
+.devcontainer
+.output
+
+node_modules
+generated
+
+*.go
+
+

@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "npm run tailwind:build && nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "prettier": "prettier --write .",
+    "tailwind:build": "tailwindcss -i input.css -o generated/output.css",
+    "tailwind:watch": "tailwindcss -i input.css -o generated/output.css --watch",
+    "lint": "DEBUG=eslint:cli-engine npx eslint . --ext .ts,.vue --fix"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.33.1",
+    "@typescript-eslint/parser": "^5.33.1",
+    "eslint": "^8.22.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "nuxt": "3.0.0-rc.8",
+    "prettier": "2.7.1",
+    "tailwindcss": "^3.1.8",
+    "vue-eslint-parser": "^9.0.3"
+  }
+}
